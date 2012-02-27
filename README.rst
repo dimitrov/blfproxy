@@ -7,6 +7,8 @@ for ExtensionStatus events and updates the device states
 between the servers using the DEVICE_STATE function.
 
 The following diagram illustrates how it works:
+
+::
  _________
 |         |
 |  PBX A  |
