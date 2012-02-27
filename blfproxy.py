@@ -1,5 +1,15 @@
 #!/usr/bin/env python
 
+'''
+BLFProxy
+========
+
+BLFProxy is a simple "proxy" which connects to two or more 
+Asterisk servers using the Asterisk Manager Interface, listens 
+for ExtensionStatus events and updates the device states 
+between the servers using the DEVICE_STATE function.
+'''
+
 __verison__ = '0.1'
 __license__ = 'MIT'
 
