@@ -47,7 +47,7 @@ The following diagram illustrates how it works:
         $ tar -xzf zope.interface-3.3.0.tar.gz
         $ cd zope.interface-3.3.0 && python setup.py install
         $ cd .. && rm -rf zope.interface-3.3.0
-        $ wget -q http://twistedmatrix.com/Releases/Twisted/11.0/Twisted-11.0.0.tar.bz2
+        $ wget http://twistedmatrix.com/Releases/Twisted/11.0/Twisted-11.0.0.tar.bz2
         $ tar -jxf Twisted-11.0.0.tar.bz2
         $ cd Twisted-11.0.0 && python setup.py install
         $ cd .. && rm -rf Twisted-11.0.0
