@@ -32,29 +32,29 @@ The following diagram illustrates how it works:
 
   1. Install the dependencies:
 
-      $ sudo apt-get install python-openssl python-twisted
+        $ sudo apt-get install python-openssl python-twisted
 
   2. Run the installation script:
 
-      $ sudo ./install.sh
+        $ sudo ./install.sh
 
 #### CentOS:
 
   1. Install the dependencies:
 
-      $ yum install gcc python-devel pyOpenSSL
-      $ wget http://www.zope.org/Products/ZopeInterface/3.3.0/zope.interface-3.3.0.tar.gz
-      $ tar -xzf zope.interface-3.3.0.tar.gz
-      $ cd zope.interface-3.3.0 && python setup.py install
-      $ cd .. && rm -rf zope.interface-3.3.0
-      $ wget -q http://twistedmatrix.com/Releases/Twisted/11.0/Twisted-11.0.0.tar.bz2
-      $ tar -jxf Twisted-11.0.0.tar.bz2
-      $ cd Twisted-11.0.0 && python setup.py install
-      $ cd .. && rm -rf Twisted-11.0.0
+        $ yum install gcc python-devel pyOpenSSL
+        $ wget http://www.zope.org/Products/ZopeInterface/3.3.0/zope.interface-3.3.0.tar.gz
+        $ tar -xzf zope.interface-3.3.0.tar.gz
+        $ cd zope.interface-3.3.0 && python setup.py install
+        $ cd .. && rm -rf zope.interface-3.3.0
+        $ wget -q http://twistedmatrix.com/Releases/Twisted/11.0/Twisted-11.0.0.tar.bz2
+        $ tar -jxf Twisted-11.0.0.tar.bz2
+        $ cd Twisted-11.0.0 && python setup.py install
+        $ cd .. && rm -rf Twisted-11.0.0
 
   2. Run the installation script:
 
-      $ ./install.sh
+        $ ./install.sh
 
 ## Configuration
 
